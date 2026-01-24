@@ -1,0 +1,35 @@
+{
+  "name": "defend-tech",
+  "version": "1.0.0",
+  "description": "DefendTech Solutions - Cybersecurity & IT Services Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winrush/DEFEND-TECH.git"
+  },
+  "homepage": "https://winrush.github.io/DEFEND-TECH",
+  "keywords": [
+    "cybersecurity",
+    "it-services",
+    "web-development",
+    "responsive",
+    "dark-mode"
+  ],
+  "author": "DefendTech Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winrush/DEFEND-TECH/issues"
+  },
+  "homepage": "https://winrush.github.io/DEFEND-TECH",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
